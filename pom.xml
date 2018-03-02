@@ -23,8 +23,8 @@
 			<version>${loimessagevalidation.version}</version>
 		</dependency>
 		<dependency>
-			 <groupId>gov.nist.healthcare.mu.lri-r2</groupId>
-		  <artifactId>lri-r2-message-validation</artifactId>
+			<groupId>gov.nist.healthcare.mu.lri-r2</groupId>
+			<artifactId>lri-r2-message-validation</artifactId>
 			<version>${lrimessagevalidation.version}</version>
 		</dependency>
 		<dependency>
@@ -79,6 +79,24 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<!-- enable filtering for app-config.properties -->
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>app-config.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<!-- disable filtering for all other resources -->
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<excludes>
+					<exclude>app-config.properties</exclude>
+				</excludes>
+			</resource>
+		</resources>
 	</build>
 
 	<scm>
@@ -101,7 +119,7 @@
 
 	<properties>
 		<hitcorehl7v2.version>1.0.20-SNAPSHOT</hitcorehl7v2.version>
-		<resourcebundle.version>1.0.0-beta-SNAPSHOT</resourcebundle.version>
+		<resourcebundle.version>1.0.0-SNAPSHOT</resourcebundle.version>
 		<edosmessagevalidation.version>1.0.1</edosmessagevalidation.version>
 		<loimessagevalidation.version>1.0.1</loimessagevalidation.version>
 		<lrimessagevalidation.version>1.0.1</lrimessagevalidation.version>
