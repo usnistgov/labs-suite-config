@@ -119,7 +119,7 @@
 
 	<properties>
 		<hitcorehl7v2.version>1.0.20-SNAPSHOT</hitcorehl7v2.version>
-		<resourcebundle.version>1.0.0-SNAPSHOT</resourcebundle.version>
+		<resourcebundle.version>1.0.0</resourcebundle.version>
 		<edosmessagevalidation.version>1.0.1</edosmessagevalidation.version>
 		<loimessagevalidation.version>1.0.1</loimessagevalidation.version>
 		<lrimessagevalidation.version>1.0.1</lrimessagevalidation.version>
