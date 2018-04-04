@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>gov.nist.healthcare.mu.loi-r1</groupId>
 			<artifactId>loi-message-validation</artifactId>
-			<version>${loimessagevalidation.version}</version>
+			<version>${loimessagevalidation.version}</version>	
 		</dependency>
 		<dependency>
 			<groupId>gov.nist.healthcare.mu.lri-r2</groupId>
@@ -31,6 +31,7 @@
 			<groupId>gov.nist.hit.core.hl7v2</groupId>
 			<artifactId>hit-core-hl7v2-api</artifactId>
 			<version>${hitcorehl7v2.version}</version>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -119,10 +120,10 @@
 
 	<properties>
 		<hitcorehl7v2.version>1.0.20-SNAPSHOT</hitcorehl7v2.version>
-		<resourcebundle.version>1.0.0</resourcebundle.version>
-		<edosmessagevalidation.version>1.0.1</edosmessagevalidation.version>
-		<loimessagevalidation.version>1.0.1</loimessagevalidation.version>
-		<lrimessagevalidation.version>1.0.1</lrimessagevalidation.version>
+		<resourcebundle.version>1.0.1</resourcebundle.version>
+		<edosmessagevalidation.version>1.0.2</edosmessagevalidation.version>
+		<loimessagevalidation.version>1.0.2</loimessagevalidation.version>
+		<lrimessagevalidation.version>1.0.2</lrimessagevalidation.version>
 
 	</properties>
 </project>
